@@ -2,13 +2,13 @@
 import './App.css';
 import Header from './Header';      
 import Home from './Home';
-import Futer from './Futer';
+import Footer from './Footer';
 function App() {
   return (
     <div >
     <Header/>
     <Home/> 
-    <Futer/>
+    <Footer/>
 
    
     </div>

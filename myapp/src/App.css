@@ -1,6 +1,28 @@
-margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  color: white;
+  padding: 13px 29px;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin:  15px;
+}
+
+button {
+  padding: 8px 15px;
+  background: rgb(78, 110, 78);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
